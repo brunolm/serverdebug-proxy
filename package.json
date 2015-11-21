@@ -1,0 +1,22 @@
+{
+  "name": "serverdebug-proxy",
+  "version": "0.0.1",
+  "description": "Executes a command internally and creates a proxy listening to server on localhost:5858 exposing it on port 8585 to provide access.",
+  "main": "index.js",
+  "bin": {
+    "serverdebug-proxy": "index.js"
+  },
+  "scripts": {
+    "test": "echo 'none'"
+  },
+  "keywords": [
+    "proxy",
+    "command",
+    "runner"
+  ],
+  "author": "Bruno Leonardo Michels <brunolm7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.12.0"
+  }
+}
